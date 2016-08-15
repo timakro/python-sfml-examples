@@ -15,7 +15,7 @@ circle = sfml.CircleShape()
 circle.radius = RADIUS
 circle.position = window.size/2
 circle.fill_color = sfml.Color.RED
-circle.origin = (0, ROTATION_RADIUS)
+circle.origin = (circle.radius/2, ROTATION_RADIUS)
 
 while window.is_open:
     for event in window.events:
