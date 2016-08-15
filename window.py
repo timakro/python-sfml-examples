@@ -8,7 +8,7 @@ window = sfml.RenderWindow(
 
 while window.is_open:
     for event in window.events:
-        if isinstance(event, sfml.CloseEvent):
+        if type(event) == sfml.CloseEvent:
             window.close()
 
     window.clear(sfml.Color.RED)
