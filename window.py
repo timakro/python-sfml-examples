@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import sfml
-import time
 
 window = sfml.graphics.RenderWindow(
     sfml.window.VideoMode(640, 480),
