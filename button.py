@@ -34,7 +34,6 @@ while window.is_open:
         elif type(event) == sfml.CloseEvent:
             window.close()
 
-
     window.clear(sfml.Color.WHITE)
     window.draw(rect)
     window.draw(text)
